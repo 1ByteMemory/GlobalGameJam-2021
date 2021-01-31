@@ -295,38 +295,18 @@ GameObject:
   - component: {fileID: 665298709}
   - component: {fileID: 665298708}
   - component: {fileID: 665298707}
-  - component: {fileID: 665298706}
   - component: {fileID: 665298705}
   - component: {fileID: 665298704}
   - component: {fileID: 665298703}
   - component: {fileID: 665298702}
   - component: {fileID: 665298701}
-  - component: {fileID: 665298700}
-  - component: {fileID: 665298699}
-  - component: {fileID: 665298698}
-  - component: {fileID: 665298697}
   - component: {fileID: 665298696}
-  - component: {fileID: 665298695}
-  - component: {fileID: 665298694}
-  - component: {fileID: 665298693}
-  - component: {fileID: 665298692}
   - component: {fileID: 665298691}
-  - component: {fileID: 665298690}
-  - component: {fileID: 665298689}
-  - component: {fileID: 665298688}
-  - component: {fileID: 665298687}
-  - component: {fileID: 665298686}
-  - component: {fileID: 665298685}
-  - component: {fileID: 665298684}
-  - component: {fileID: 665298683}
-  - component: {fileID: 665298682}
-  - component: {fileID: 665298681}
   - component: {fileID: 665298680}
   - component: {fileID: 665298679}
   - component: {fileID: 665298678}
   - component: {fileID: 665298677}
   - component: {fileID: 665298676}
-  - component: {fileID: 665298675}
   - component: {fileID: 665298674}
   - component: {fileID: 665298673}
   - component: {fileID: 665298672}
@@ -374,7 +354,6 @@ GameObject:
   - component: {fileID: 665298727}
   - component: {fileID: 665298726}
   - component: {fileID: 665298725}
-  - component: {fileID: 665298724}
   - component: {fileID: 665298723}
   - component: {fileID: 665298722}
   - component: {fileID: 665298721}
@@ -397,7 +376,6 @@ GameObject:
   - component: {fileID: 665298769}
   - component: {fileID: 665298771}
   - component: {fileID: 665298770}
-  - component: {fileID: 665298773}
   - component: {fileID: 665298772}
   - component: {fileID: 665298768}
   - component: {fileID: 665298767}
@@ -405,7 +383,6 @@ GameObject:
   - component: {fileID: 665298774}
   - component: {fileID: 665298783}
   - component: {fileID: 665298782}
-  - component: {fileID: 665298781}
   - component: {fileID: 665298780}
   - component: {fileID: 665298779}
   - component: {fileID: 665298778}
@@ -415,6 +392,34 @@ GameObject:
   - component: {fileID: 665298786}
   - component: {fileID: 665298785}
   - component: {fileID: 665298784}
+  - component: {fileID: 665298790}
+  - component: {fileID: 665298789}
+  - component: {fileID: 665298788}
+  - component: {fileID: 665298787}
+  - component: {fileID: 665298684}
+  - component: {fileID: 665298685}
+  - component: {fileID: 665298683}
+  - component: {fileID: 665298682}
+  - component: {fileID: 665298681}
+  - component: {fileID: 665298675}
+  - component: {fileID: 665298686}
+  - component: {fileID: 665298687}
+  - component: {fileID: 665298699}
+  - component: {fileID: 665298698}
+  - component: {fileID: 665298697}
+  - component: {fileID: 665298695}
+  - component: {fileID: 665298694}
+  - component: {fileID: 665298693}
+  - component: {fileID: 665298692}
+  - component: {fileID: 665298690}
+  - component: {fileID: 665298689}
+  - component: {fileID: 665298688}
+  - component: {fileID: 665298791}
+  - component: {fileID: 665298781}
+  - component: {fileID: 665298773}
+  - component: {fileID: 665298724}
+  - component: {fileID: 665298706}
+  - component: {fileID: 665298700}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -461,8 +466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 615
-    y: 288
+    x: 693.0219
+    y: 345.14297
     width: 101.648346
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -540,8 +545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 624
-    y: 133
+    x: 638.28644
+    y: 201.13239
     width: 93.95604
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -568,8 +573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 622
-    y: 209
+    x: 635.18756
+    y: 250.75854
     width: 100.549446
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -596,8 +601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 623
-    y: 59
+    x: 638.3853
+    y: 150.209
     width: 88.46153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -632,7 +637,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -783,22 +788,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 34
+  itemId: 145
   indentLevel: 0
-  text: Not yet
+  storyText: You spend quite a bit of time looking at different possible outfits
+    debating on what you think might look good, trying to decide what style you like
+    the best.
   description: 
-  targetBlock: {fileID: 665298679}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298676
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -813,7 +822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: You put on a miniture fashion show, showing off your new clothes!
+  storyText: You put on a miniture fashion show, showing off your new clothes and
+    get a seconded opinopn on your outfits!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -840,10 +850,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Your friend is excited to see you explore you gender identity!
+  storyText: Your friend is excited to see you exploring you gender identity and
+    they're delighted to help you along the way!
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -867,8 +878,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: Your happy to have tried on the clothes, but you're not ready to come
-    out to your friends yet.
+  storyText: That's quite a big step. After all, you've only just started to explore
+    the possibility that you might be transgender.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -895,8 +906,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 986.7364
-    y: -56.97801
+    x: 913.11066
+    y: -50.38459
     width: 163.1868
     height: 40
   tint: {r: 0.8490566, g: 0, b: 0, a: 1}
@@ -907,6 +918,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 665298678}
+  - {fileID: 665298687}
   - {fileID: 665298780}
   suppressAllAutoSelections: 0
 --- !u!114 &665298680
@@ -923,12 +935,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1004.3296
-    y: -129.35152
+    x: 263.67145
+    y: 60.758263
     width: 147.80219
     height: 40
-  tint: {r: 0.8113208, g: 0.011480933, b: 0.011480933, a: 1}
-  useCustomTint: 1
+  tint: {r: 0.8117647, g: 0.67161024, b: 0.011764703, a: 1}
+  useCustomTint: 0
   itemId: 29
   blockName: End/ExcitedFriend
   description: 
@@ -937,7 +949,13 @@ MonoBehaviour:
   - {fileID: 665298769}
   - {fileID: 665298677}
   - {fileID: 665298676}
-  - {fileID: 665298781}
+  - {fileID: 665298693}
+  - {fileID: 665298694}
+  - {fileID: 665298700}
+  - {fileID: 665298692}
+  - {fileID: 665298690}
+  - {fileID: 665298689}
+  - {fileID: 665298688}
   suppressAllAutoSelections: 0
 --- !u!114 &665298681
 MonoBehaviour:
@@ -948,12 +966,66 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  storyText: After looking through multiple clothes you buy a small number of clothes.
+    Just enough to form a few different combinations of outfits, but not too many
+    that it's too expensive.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &665298682
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 28
+  itemId: 143
   indentLevel: 0
-  text: Yes!
+  text: I'm not ready to come out yet
+  description: 
+  targetBlock: {fileID: 665298679}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &665298683
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  text: Yes! Let's invite them over!
   description: 
   targetBlock: {fileID: 665298680}
   hideIfVisited: 0
@@ -964,62 +1036,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &665298682
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665298661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 0
-  storyText: Do you show your new clothes to a close friend?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &665298683
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665298661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 843
-    y: -87
-    width: 114.83516
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 25
-  blockName: ShowFriend
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 665298682}
-  - {fileID: 665298681}
-  - {fileID: 665298675}
-  suppressAllAutoSelections: 0
 --- !u!114 &665298684
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1029,22 +1045,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
+  itemId: 140
   indentLevel: 0
-  text: Weirdly....nothing?
+  storyText: You go shopping for some clothes. It's a bit awkard as your getting
+    clothes typically for the opposite gender but you ignore that as best you can.
   description: 
-  targetBlock: {fileID: 665298683}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298685
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1054,22 +1073,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 23
+  itemId: 141
   indentLevel: 0
-  text: Weirdly off?
+  storyText: It's odd wearing these clothes, but it feels kind of nice. You feel
+    this is a good step in figureing out who you are.
   description: 
-  targetBlock: {fileID: 665298683}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298686
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1079,22 +1101,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 22
+  itemId: 146
   indentLevel: 0
-  text: Weirdly Natual?
+  storyText: You think about coming out to your best friend. You could even ask them
+    to come over and see what they think about your new clothes!
   description: 
-  targetBlock: {fileID: 665298683}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298687
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1104,18 +1129,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 21
+  itemId: 147
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 665298694}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  storyText: You might not know what this really means for you indentity, but it's
+    something you can start to explore!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298688
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1125,25 +1157,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 20
+  itemId: 157
   indentLevel: 0
-  storyText: You have a look in the mirror then take them off before your sibling
-    gets back.
+  text: I'm not sure!
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 665298718}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &665298689
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1153,18 +1182,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 156
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 665298694}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  text: They/Them
+  description: 
+  targetBlock: {fileID: 665298667}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &665298690
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1174,24 +1207,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 18
+  itemId: 155
   indentLevel: 0
-  storyText: When you get home you realise that barely any of them fit properly!
+  text: She/Her
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 665298666}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &665298691
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1206,8 +1237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: You go shopping for some clothes. Unsure of what will look good you
-    get a few differnt styles and types of clothing.
+  storyText: You're not entierly sure who you are, but maybe buying some new clothes
+    and trying out different styles might help.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1229,25 +1260,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 16
+  itemId: 154
   indentLevel: 0
-  storyText: You sneak into your siblings room when they're out and try on a few
-    different items o clothing.
+  text: He/Him
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 665298668}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &665298693
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1260,13 +1288,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 153
   indentLevel: 0
-  storyText: It feels weird to wear clothes you don't normally wear. But was it weird
-    bad or weird good?
+  storyText: '"I think that one looks really good on you, it''s a good colout for
+    you."'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1285,27 +1313,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 647
-    y: -87
-    width: 120.329666
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 14
-  blockName: New Clothes
+  itemId: 152
+  indentLevel: 0
+  storyText: You start talking about various things including gender identity
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 665298693}
-  - {fileID: 665298686}
-  - {fileID: 665298685}
-  - {fileID: 665298684}
-  suppressAllAutoSelections: 0
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298695
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1315,22 +1340,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 151
   indentLevel: 0
-  text: Go shopping for some clothes
-  description: 
-  targetBlock: {fileID: 665298696}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 665298703}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &665298696
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1345,8 +1366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 460
-    y: -59
+    x: 302.85773
+    y: -50.20881
     width: 100.549446
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1356,15 +1377,69 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 665298691}
   - {fileID: 665298761}
   - {fileID: 665298760}
-  - {fileID: 665298691}
-  - {fileID: 665298690}
+  - {fileID: 665298684}
+  - {fileID: 665298675}
+  - {fileID: 665298681}
   - {fileID: 665298765}
   - {fileID: 665298764}
-  - {fileID: 665298689}
+  - {fileID: 665298685}
+  - {fileID: 665298686}
+  - {fileID: 665298683}
+  - {fileID: 665298682}
   suppressAllAutoSelections: 0
 --- !u!114 &665298697
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1242390356}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &665298698
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  indentLevel: 0
+  storyText: You invite your best friend over and tell them you think you might be
+    trans but your're not sure.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &665298699
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1378,77 +1453,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 443
-    y: -132
-    width: 135.71428
+    x: 49.777832
+    y: 141.74306
+    width: 109.34065
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 11
-  blockName: SneakIntoRoom
+  itemId: 148
+  blockName: FriendHelp
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 665298692}
-  - {fileID: 665298688}
-  - {fileID: 665298687}
+  - {fileID: 665298698}
+  - {fileID: 665298697}
+  - {fileID: 665298695}
   suppressAllAutoSelections: 0
---- !u!114 &665298698
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665298661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 10
-  indentLevel: 0
-  text: Sneak into your sibling's room and try on their clothes
-  description: 
-  targetBlock: {fileID: 665298697}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &665298699
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665298661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  storyText: But where do you get clothes to try on. You could sneak into your sibling's
-    room, or go shopping
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &665298700
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1458,13 +1480,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
+  itemId: 163
   indentLevel: 0
-  storyText: You decide that the best way to explore your gender is to try on differnt
-    clothes.
+  storyText: '"So what pronouns would you like me to use?"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1490,7 +1511,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Talk to a close friend
   description: 
-  targetBlock: {fileID: 665298703}
+  targetBlock: {fileID: 665298699}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -1513,7 +1534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  text: Make up scenarios with different pronouns
+  text: Test different pronouns
   description: 
   targetBlock: {fileID: 665298704}
   hideIfVisited: 0
@@ -1538,19 +1559,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 246
-    y: 381
-    width: 84.06593
+    x: 78.96704
+    y: 333.747
+    width: 122.527466
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 5
-  blockName: Friend
+  blockName: FriendChoice
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 665298724}
-  - {fileID: 665298773}
   - {fileID: 665298723}
   - {fileID: 665298722}
   - {fileID: 665298721}
@@ -1571,8 +1590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 238
-    y: 189
+    x: 194.04391
+    y: 151.63716
     width: 100.549446
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1606,9 +1625,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: Try on different clothes
+  text: Go shopping for some new clothes
   description: 
-  targetBlock: {fileID: 665298706}
+  targetBlock: {fileID: 665298696}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -1619,34 +1638,18 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &665298706
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 241
-    y: -79
-    width: 91.75824
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 2
-  blockName: Clothes
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 665298700}
-  - {fileID: 665298699}
-  - {fileID: 665298698}
-  - {fileID: 665298695}
-  suppressAllAutoSelections: 0
+  itemId: 162
+  indentLevel: 0
 --- !u!114 &665298707
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1661,7 +1664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: You wake up lost and unsure of your gender identity
+  storyText: You wake up feeling lost and unsure of your gender identity.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1703,8 +1706,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 73.593376
-    y: 0.7692871
+    x: 154.91212
+    y: -106.92299
     width: 77.47253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1721,6 +1724,8 @@ MonoBehaviour:
   - {fileID: 665298784}
   - {fileID: 665298785}
   - {fileID: 665298707}
+  - {fileID: 665298791}
+  - {fileID: 665298781}
   - {fileID: 665298705}
   - {fileID: 665298702}
   - {fileID: 665298701}
@@ -1738,10 +1743,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 15.007174, y: 264.6251}
+  scrollPos: {x: 127.14551, y: 279.13553}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 523
   zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
@@ -1750,8 +1755,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 665298680}
-  selectedCommands: []
+  - {fileID: 665298704}
+  selectedCommands:
+  - {fileID: 665298669}
   variables:
   - {fileID: 665298734}
   description: 
@@ -1792,8 +1798,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: But that's OK. These sort of things can take some time to process. There's
-    no hurry to figure out who you are.
+  storyText: Even though you still feel a little lost, you feel that you are closer
+    to finding your true identity
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1820,9 +1826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  storyText: Discoverying your gender identity is quite a lot to think about and
-    thinking about what pronouns you want to use is a little too much for you at
-    the moment.
+  storyText: I'm not ready to start thinking about pronouns yet, but I just wanted
+    to let you know that it's a thing.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1849,8 +1854,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 924.769
-    y: 530.7256
+    x: 946.5975
+    y: 475.20584
     width: 170.87912
     height: 40
   tint: {r: 0.8773585, g: 0, b: 0, a: 1}
@@ -1861,6 +1866,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 665298713}
+  - {fileID: 665298790}
   - {fileID: 665298712}
   - {fileID: 665298775}
   suppressAllAutoSelections: 0
@@ -1878,7 +1884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  text: It's a bit much to think about
+  text: It's a bit much to think about right now.
   description: 
   targetBlock: {fileID: 665298714}
   hideIfVisited: 0
@@ -1903,15 +1909,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  storyText: '"Do you want me to help you figure it out?"'
+  storyText: '"Would you like help figuring it out?"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -1930,7 +1936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  text: Yes, please!
+  text: Yeah, that'd be great!
   description: 
   targetBlock: {fileID: 665298751}
   hideIfVisited: 0
@@ -1955,8 +1961,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 374
-    y: 553
+    x: 231.1052
+    y: 463.9895
     width: 154.3956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2084,47 +2090,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: '"So what pronouns would you like me to use?"'
+  storyText: '"That''s amazing! What pronouns would you like me to use?"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &665298724
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 83
-  indentLevel: 0
-  storyText: You tell your closest friend that you're questioning your gender, and
-    they're super supportive!
+  nodeRect:
+    serializedVersion: 2
+    x: 1315.7582
+    y: -51.87806
+    width: 73.07692
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 161
+  blockName: Quit
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 665298706}
+  suppressAllAutoSelections: 0
 --- !u!114 &665298725
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2139,8 +2144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: You're friends are super supportive and start using you're prefered
-    pronouns!
+  storyText: It took quite a bit of courge to come out to your friends, but they're
+    all really supportive!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2167,8 +2172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: You not ready to come out to the rest of your friends. But that's ok,
-    because you have discovered your identity!
+  storyText: You have found your gender identity! But coming out to your friends
+    is a bit daunting. Maybe you might try dropping some hints...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3445,8 +3450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 943.8354
-    y: 175.39561
+    x: 953.7263
+    y: 223.7476
     width: 195.05493
     height: 40
   tint: {r: 0.8396226, g: 0, b: 0, a: 1}
@@ -3473,8 +3478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 974.5933
-    y: 92
+    x: 964.7043
+    y: 172.22018
     width: 158.7912
     height: 40
   tint: {r: 0.754717, g: 0, b: 0, a: 1}
@@ -3491,6 +3496,7 @@ MonoBehaviour:
   - {fileID: 665298766}
   - {fileID: 665298767}
   - {fileID: 665298725}
+  - {fileID: 665298787}
   - {fileID: 665298779}
   suppressAllAutoSelections: 0
 --- !u!114 &665298738
@@ -3566,7 +3572,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -3613,8 +3619,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 938.73676
-    y: 292.39563
+    x: 944.2316
+    y: 350.63736
     width: 178.57141
     height: 40
   tint: {r: 0.6603774, g: 0, b: 0, a: 1}
@@ -3625,6 +3631,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 665298741}
+  - {fileID: 665298788}
   - {fileID: 665298777}
   suppressAllAutoSelections: 0
 --- !u!114 &665298743
@@ -3641,12 +3648,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: '"That''s ok, you don''t have to know immediately. And when you think
-    you might know it''s perfectly fine to realise that it doesn''t fit and change
-    it again."'
+  storyText: '"That''s ok, you don''t have to know immediately. Let me know whenever
+    you want to explore it more!"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3670,8 +3676,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 951.769
-    y: 442.7252
+    x: 956.165
+    y: 413.0548
     width: 144.5055
     height: 40
   tint: {r: 0.9339623, g: 0, b: 0, a: 1}
@@ -3682,6 +3688,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 665298743}
+  - {fileID: 665298789}
   - {fileID: 665298776}
   suppressAllAutoSelections: 0
 --- !u!114 &665298745
@@ -3800,13 +3807,13 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"So did that help? Do you think you know what pronouns you prefer?'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -3852,8 +3859,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 378.27246
-    y: 454.4993
+    x: 413.4375
+    y: 419.33435
     width: 134.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3943,7 +3950,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -4025,8 +4032,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 802
-    y: 137
+    x: 783.3197
+    y: 196.34113
     width: 117.03296
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4368,25 +4375,29 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &665298773
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 114
+  itemId: 160
   indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1242390356}
-  activeState:
+  text: Quit
+  description: 
+  targetBlock: {fileID: 665298724}
+  hideIfVisited: 0
+  interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &665298774
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4536,25 +4547,31 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &665298781
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665298661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 122
+  itemId: 159
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 665298783}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  storyText: How would you like to explore your gender identity?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &665298782
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4594,8 +4611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1270.7073
-    y: 40.86921
+    x: 1315.7582
+    y: -111.87806
     width: 89.56044
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4606,6 +4623,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 665298782}
+  - {fileID: 665298773}
   suppressAllAutoSelections: 0
 --- !u!114 &665298784
 MonoBehaviour:
@@ -4670,6 +4688,146 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &665298787
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  storyText: You no longer feel as lost as you were. Your friends help you get used
+    to your new pronouns and you feel that you have found your true identity!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &665298788
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  storyText: You feel lost with your gender identity, but you don't want your friends
+    to know about that.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &665298789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  storyText: You still feel a little lost with not knowing what your gender identity
+    is, but you do have a friend to help you along the way.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &665298790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+  storyText: '"That''s ok! Make sure to take your time with figuring it out. I''m
+    always here if you want to talk about it."'
+  description: 
+  character: {fileID: 2008583776}
+  portrait: {fileID: 21300000, guid: 9a78b874efe3bc84a81150ea3f2d9cc3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &665298791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665298661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 158
+  indentLevel: 0
+  storyText: You start to realise that there's a small possibility that you might
+    be trans!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5323,7 +5481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Friend1
+  nameText: Best Friend
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
